@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 16px; /*1rem : 10px*/  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: rgb(131,58,180);
+  background: linear-gradient(137deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
+             rgba(252,176,69,1) 100%);
+}
+
+.input{
+  width: 40vw;
+}
+
+.input input{
+  height: 10vh;
+  width: 100%;
+  display: block;
+
+  font-size: 2rem;
+  color: rgb(100, 0, 0);
+  border-radius: .8rem;
+}
+
+#name{
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+#button{
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
